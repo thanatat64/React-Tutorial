@@ -1,0 +1,64 @@
+body {
+  background-color: Gainsboro;
+}
+
+.App {
+  width: 1000px;
+	margin-inline: auto;
+	padding-bottom: 50px;
+}
+
+.App h1{
+  color: goldenrod;
+  text-align: center;
+}
+
+.Board-container{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+	padding: 40px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: Ivory;
+}
+
+.Board_body{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.voteZone{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.vote-bt{
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 2px;
+  margin-bottom: 0px;
+}
+
+.vote-res{
+  padding: 15px;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: lime;
+	color: blueviolet;
+  text-transform: uppercase;
+  font: 1.5rem 'MutatorSans', sans-serif;
+  font-weight: 900;
+
+}
+
+
+
+
+
+
